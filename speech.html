@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Exemplo de seções collapsible</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<style>
+		.collapsible {
+		  background-color: #888;
+		  color: white;
+		  cursor: pointer;
+		  padding: 18px;
+		  width: 100%;
+		  border: none;
+		  text-align: left;
+		  outline: none;
+		  font-size: 15px;
+		}
+
+		.active, .collapsible:hover {
+		  background-color: #555;
+		}
+
+		.content {
+		  padding: 0 18px;
+		  display: none;
+		  overflow: hidden;
+		  background-color: #cd9999;
+		}
+		.fundo-vermelho{
+			background: red;
+			color: white;
+		}
+		.texto-vernelho{
+			color: red;
+		}
+		.texto-azul{
+			color: #00FFFF;
+		}
+		.fundo-amarelo{
+			background: yellow;
+			color: black;
+		}
+		.fundo-azul{
+			background: blue;
+			color: white;
+		}
+		.fundo-purple{
+			background: purple;
+			color: white;
+		}
+		.fundo-azul-1{
+			background: #00FFFF;
+			color: black;
+		}
+		.fundo-laranja{
+			background: orange;
+			color: black;
+		}
+		.fundo-turquesa{
+			background: #00FF7F;
+			color: black;
+		}
+	</style>
+</head>
+<body>
+
+<h2>7 Passos </h2>
+
+<p>Alô (nome da pessoa), tudo bem?</p>
+<p>Aqui quem está falando é o Leandro, estou te ligando através do (nome de quem indicou)</p>
+<p>Está podendo falar?</p>
+<p>O (nome de quem indicou) teve acesso a um projeto aqui com a gente, ele achou bem legal e lembrou de você mas ele não soube me dizer (nome da pessoa) <b> como está seu inglês</b> </p>
+
+<button class="collapsible fundo-vermelho">Se a pessoa não quer logo de cara</button>
+<div class="content">
+  <p>Entendo (nome da pessoa) mas você não quer por algum momento específico pra você não querer desenvolver o inglês?</p>
+  <p>Seja por tempo, financeiro ou algum outro?</p>
+  <p>Você não pensa em inglês como um objetivo?</p> 
+  <p>Não é uma prioridade?</p>
+  <br>
+  <p>Sem problemas</p> 
+  <p>Hoje não é seu momento pra aprender mas como o <em>(nome de quem indicou)</em> lembrou de você</p> 
+  <p>Deixa só eu te explicar rapidamente nosso projeto para quando for seu momento você me chama e aí te explico com mais detalhes, beleza?</p>
+  <p>nossas aulas são com professores americanos, você estuda quando e onde quiser, com temas que abordam situações do dia a dia 100% focado em conversação, por <b class="texto-vernelho">R$156,00</b> legal?</p>
+  <br>
+  <p>Eu vou fazer o seguinte, vou te mandar um material sobre nossa plataforma e assim você fica com meu número, quando você sentir que for a hora de resolver seu o inglês você me chama</p>
+  <p>Você usa Iphone ou Android?</p>
+  <h3 class="fundo-amarelo">Referidos</h3>
+
+  <p>Mesmo não sendo seu momento o <em>(nome de quem indicou)</em> lembrou de você para essa oportunidade, e pra levarmos essa oportunidade adiante</p>
+  <p>enquanto eu separo o vídeo sobre nossa plataforma, clica ali: (+ ou clipe)</p>
+  <p>Você vai selecionar 20 pessoas e pra facilitar para você não precisa pensar se quer ou não o inglês, você vai focar agora somente em pessoas que você gosta, beleza? Da sua família, trabalho, escola, etc…. vai indo de A, B, C….</p>
+
+  <p class="fundo-azul">Se houver objeção: exemplo A Ana é gente boa, pronto só mandar, porque eu vou apresentar essa oportunidade pra ela, se ela gostar show, você vai ter ajudado ela, se ela não quiser, tudo bem, você ajudou da mesma forma levando até ela essa oportunidade, então vai selecionando aí enquanto eu faço essa parte mais burocrática no meu sistema.</p>
+
+  <h3 class="fundo-amarelo">Validação</h3>
+  <p>Agora (nome da pessoa), nós vamos avisar seus amigos que você está fazendo essa indicação para que eventualmente eles não percam minha ligação e acabam perdendo essa oportunidade.</p>
+  <p>Quem responder você não precisa explicar nada, me manda aqui o nome e na frente sim, por exemplo:Ana - sim que aí eu já coloco ela como prioridade pra ela não perder essas mesmas condições que você, beleza? Posso contar com você pra me avisar?</p>
+  
+  <p>(nome da pessoa) já te mandei o vídeo e quando for seu momento é só me puxar aqui, beleza?</p>
+  <p><b>Abraços</b></p>
+  <hr><hr>
+</div>
+<br>
+<!--CONEXÃO NORMAL-->
+<h2 class="fundo-amarelo">Conexão</h2>
+<p>Mas desenvolver o inglês é importante para você?</p>
+<p>Por que</p>
+<p>Sua necessidade/desejo em falar inglês te ajuda como na sua profissão?</p>
+<p>E na vida pessoal te ajuda como?</p>
+<p>Bacana, você trabalha com o quê?</p>
+<p>Você está há quanto tempo está nessa área?</p>
+<p>Entendi, você disse que está no nível (básico/intermediário) e trabalha já esse tempo que você me disse na sua área, como tem feito sem o inglês?</p>
+<p>Já teve experiência anterior com curso de inglês? Como foi?</p>
+<p>Gostava do curso? Por que parou?</p>
+<p>Já viajou ou planeja viajar para fora do Brasil?</p>
+<p>Como foi / Como será se você estiver sem inglês na viagem?</p>
+<p>O que mudaria na sua vida se hoje você fosse fluente em inglês?</p>
+
+<h4 class="fundo-amarelo">Pré DI</h4>
+<p>(nome da pessoa) entendi a importância do inglês para você, <b>mas me conta se é importante, o que está te impedindo de estudar inglês nesse momento?</b></p>
+<p>Então se você encontrar uma solução que quebra as barreiras que você disse, encaixa no seu tempo, no seu orçamento e a metodologia te ajude a se desenvolver, você está disposto a resolver seu inglês a partir de agora?</p>
+
+
+<h2 class="fundo-amarelo">Apresentação</h2>
+<p>Bacana! (nome da pessoa) deixa eu te apresentar nosso projeto e já aproveito pra apresentar melhor a empresa que eu represento que é a Wise Up, você conhece a Wise Up ?</p>
+
+<p>Nos somos a maior escola de inglês para adultos da América Latina, já temos mais de 27 anos de experiência em ensinar inglês para o público adulto, e eu vou te explicar sobre a nossa plataforma digital, onde já temos mais de 400 mil alunos estudando conosco, beleza?</p>
+
+<h2 class="fundo-amarelo">Decisão Imediata (DI)</h2>
+
+<p>(nome da pessoa) vou te apresentar todos os detalhes mas antes eu gosto de fazer um combinado bem simples que é o seguinte:</p>
+<p>Nós temos uma demanda muito alta, então em respeito ao meu tempo e ao seu, eu quero que você fique muito à vontade que se no final você não gostar da metodologia ou não encaixar no seu tempo ou no financeiro, por qualquer razão não fizer sentido para você, é simplesmente me falar um NÃO, tranquilo?</p>
+
+<p>Agora, por outro lado, se tudo se encaixar, tempo, financeiro e metodologia nós vamos fazer sua matrícula nessa ligação mesmo, COMBINADO?</p>
+
+<p>Eu faço esse combinado mais objetivo porque você sabe né (nome da pessoa) muitas vezes a gente não gosta e fica com vergonha de falar aí sempre fala vou pensar e te falo não é assim?  
+Então aqui é pra realmente te deixar bem à vontade pra me dizer não no final caso não dê certo, porque eu faço um único contato por aluno, beleza?</p>
+<p>Estamos combinados?</p>
+<p>(nome da pessoa) você mesmo toma essa decisão financeira?</p>
+
+<p>Vamos lá então</p>
+
+<button class="collapsible fundo-azul">SPEECH PACOTE</button>
+<div class="content fundo-purple">
+<br>
+<p>Nosso foco é que você tenha flexibilidade total em estudar conosco, por isso nosso projeto é multiplataforma, você pode participar das aulas pelo celular, tablet e computador.
+Temos aula de segunda a sábado das 7 da manhã até 11 da noite, pensando nisso me fala o dia e horário que fica bom pra você. </p>
+<p>O mais legal (nome da pessoa) é que se eventualmente você não puder ver a aula no dia, você mesmo remarca ela em outro dia e horário tudo pela plataforma, sem precisar ligar pra ninguém e sem custo adicional. O nosso foco é que você consiga realmente encaixar o inglês na sua rotina e resolva seu problema de uma vez por todas, beleza? </p>
+<p>Conseguimos encaixar o tempo então né?</p>
+
+<br>
+<p>Deixa eu te falar das aulas então:</p>
+<p>São aulas ao vivo com o professor em uma turma de no máximo 12 pessoas, onde o foco é a prática e sua conversação, para que você saia do nível básico/intermediário para o fluente. Tranquilo?</p>
+
+<p>E a metodologia é o seguinte, nosso foco é que você desenvolva as quatro habilidades essenciais: fala, escuta, leitura e escrita, como te falei do básico à fluência..
+Pra ir para as aulas com o professor você tem que se preparar e para isso nós temos a plataforma que é seu material de estudos que o professor utiliza e onde você vai se preparar para cada aula, como funciona: Aqui não temos aquele material didático chato, com livros e tarefinhas, aqui na nossa plataforma temos aulas imersivas com vários temas legais do dia a dia mesmo, como por exemplo, viagens, restaurantes, compras e negócio - entrevistas de trabalho, gestão de pessoas e projetos.
+O professor vai te dar o caminho dos temas e você vai se preparando antes das aulas, beleza?
+</p>
+
+<h6 class="fundo-amarelo">Pré fechamento</h6>
+
+<p>(nome da pessoa) essa é a nossa metodologia, o que você achou?</p>
+<p>Ajuda a resolver seu inglês?</p>
+<p><b>Sem pensar em valores, só pela metodogologia, você seria aluno(a) da Wiseup</b></p>
+
+<h2 class="fundo-amarelo">Fechamento</h2>
+
+<p>Vamos ver a parte financeira então?</p>
+
+<p>Você tem ideia de quanto tá o investimento no inglês atualmente?</p>
+
+<p>Só pra te dar uma base, A Wiseup presencial que uma escola premium, está em média <b class="texto-vernelho">R$700,00</b> entre mensalidade e material por mês, num plano de 18 meses, porque que ninguém sai do básico / intermediário em 3, 5, 6 meses, concorda?</p>
+
+<p>Outras escolas por aí que ainda possuem metodologia antiga que pra você sair do básico ao avançado leva 5, 6 anos e você investe em média <b class="texto-vernelho">R$500,00</b> por mês, tá legal?</p>
+
+<p>Aqui na WIseup Live (nome da pessoa), com a metodologia que você gostou e com toda essa flexibilidade, nosso tempo de duração é de <b class="texto-azul">24 meses</b> e você paga <b class="texto-azul">R$354,00</b> por mês.<</p>
+
+<p>(nome da pessoa), <b>esses valores encaixam dentro no seu orçamento?</b></p>
+<br>
+<p class="fundo-azul-1">Cadastrando no checkout</p>
+<p>Vamos lá então, eu preciso do seu nome completo; email que mais utiliza; o telefone será esse mesmo que falamos?</p>
+
+<p class="fundo-azul-1">Pega os dados do cartão e explica:</p>
+<p>(nome da pessoa) hoje tem a taxa de matrícula que é uma vez na história que você paga e nunca mais vai pagar, que é somente <b class="texto-azul">R$52,00</b></p>
+<p>Você será alocado na turma do mês (falar mês que vai começar a turma) e vai pagar somente <b class="texto-azul">R$156,00</b></p>
+<p>Quando for no mês (falar mês que vai começar a pagar o live) ai ficará os <b class="texto-azul">R$354,00</b> beleza?</p>
+
+<p class="fundo-azul-1">Depois de cadastrar o cartão mas antes de finalizar a compra; ultiperfil:</p>
+<h2 class="fundo-amarelo">Multiperfil</h2>
+<p>Legal (nome da pessoa) apareceu aqui uma oportunidade que foi liberada para você que é a possibilidade de colocar uma pessoa para estudar junto com você, não precisa nem pensar em quem neste momento, você pode colocar a pessoa depois mas essa oportunidade é só agora, como fica:</p>
+<p>Ao invés da pessoa ter que pagar os <b class="fundo-azul-1">R$354,00</b>, ela vai pagar somente <b class="fundo-azul-1">R$90,00</b></p>
+<p>Estou aprovando aqui</p>
+</div>
+
+<button class="collapsible fundo-laranja">Down Sell</button>
+<div class="content">
+  <br><p>Entendo (nome da pessoa), sem problemas, o que eu consigo fazer para você é o seguinte, eu consigo liberar para você a nossa plataforma de estudos, ela é a base para você desenvolver seu inglês, inclusive temos milhares de alunos que se desenvolvem somente por ela</p>
+  <p>Como eu te falei são aulas imersivas com temas do dia a dia, você vai se aprofundar em toda a base do inglês, vocabulário, gramática e a pratíca com exercicios</p>
+  <p>você consegue ingressar nesse momento por <b class="fundo-azul-1">R$156,00</b> consegue encaixar dessa forma? </p>
+  <p>Então vamos lá… (parte para o cadastro)</p>
+</div>
+
+<button class="collapsible">SPEECH WOL + UPSELLING</button>
+<div class="content fundo-turquesa">
+  <br>
+  <p>A Wiseup online te dá uma flexibilidade total de tempo e acesso, somos 100% digital, você pode estudar de qualquer dispositivo com internet. beleza? O tempo das aulas é de 40 minutos em média, para que nossos alunos consigam encaixar esse tempo na rotina, você acre</p>
+  <p>Legal, encaixamos o tempo</p>
+  <p class="fundo-azul-1">Explorar mais o que faz mais sentido para os motivos do aluno e passar pelos outros de forma mais leve)</p>
+  <p>(nome da pessoa) aqui você vai ter uma imersão com nossos módulos, são mais de 600 horas de conteúdos com diversas temáticas do dia a dia você pode escolher os temas que mais te agradam….</p>
+  <p>Nós temos um módulo mais inicial, para que você tenha o primeiro contato com a língua inglesa, neste módulo você vai conhecer algumas cidades dos Estados Unidos, tranquilo?</p>
+  <ul> Você vai outros temas como:
+  	<li>Pedindo comida</li>
+  	<li>Alugando carro</li>
+  	<li>Fazendo compras</li>
+  </ul>
+  <ul>Sobre o mundo corporativo também:
+  	<li>Gestão de pessoas</li>
+  	<li>Comunicação profissional</li>
+  	<li>Entrevistas de emprego</li>
+  	<li>Entre outros temas</li>
+  </ul>
+
+  <p>E você vai explorar essas aulas da seguinte forma:</p>
+  <p>O primeiro passo é um documentário, com um desses temas que já falamos, você seleciona o que você quer estudar e começa sua aula.</p>
+  <p>O passo 2 é a aula de vocabulário para que você se aprofunde nas expressões e palavras que você está aprendendo</p>
+  <p>E o passo 3 é a aula de gramática, que é aplicada a situações reais, não é um the books on the table. A gente vai ensinar uma gramática que você precisa, pra de fato falar e 
+  se comunicar no seu dia a dia.</p>
+
+  <p>(nome da pessoa) nossos professores são americanos, para que você tenha contato com a pronúncia estrangeira e se acostumar, e o mais legal é que todos os professores falam português fluente, para ajudar quem tá num nível mais básico e não se assustar logo de cara ver uma aula só em inglês. Dessa forma faz sentido para você?</p>
+
+  <p>O nosso foco é que você consiga realmente falar, escrever e se comunicar em inglês, seja pra sua vida pessoal ou profissional, tranquilo?</p>
+
+  <h4 class="fundo-amarelo">Pré fechamento</h4>
+
+  <p>Legal, o tempo encaixou, A plataforma e a nossa metodologia você gostou?</p>
+  <p>Deixando o preço de lado agora, só pelo que eu te expliquei, você seria um aluno da Wiseup?</p>
+
+  <h2 class="fundo-amarelo">Fechamento</h2>
+  <p>Você tem ideia de quanto se investe em inglês hoje?</p>
+  <p>WiseUp presencial - <b class="texto-vernelho">R$700,00</b> mais ou menos (Escola Premium) Entre material e mensalidade EM 18 MESES</p>
+  <p>Já aqui na Wiseup Online com tudo isso que eu te falei agora, com a flexibilidade que você gostou, fica <b class="fundo-azul-1">R$156,00</b> e a nossa metodologia é de 12 meses</p>
+
+  <p>(nome da pessoa) encaixou no orçamento?</p>
+  <p class="fundo-azul-1">Se sim, segue para o cadastro</p>
+
+  <h5>Multiperfil</h5>
+  <p>Legal ______ vou finalizar aqui mas antes eu tenho uma oportunidade que foi liberada para você que é a possibilidade de colocar uma pessoa para estudar junto com você, pode ser namorada, mulher, pai, mãe, etc….qualquer pessoa do seu convívio, nem precisa pensar agora mas deixa eu te explicar: Ao invés da pessoa ter que pagar os <b class="fundo-azul-1">R$156,00</b>  ela vai pagar somente <b class="fundo-azul-1">R$30,00</b></p>
+  <p>Mas é somente neste momento essa possibilidade, posso colocar que sim?</p>
+
+  <p class="fundo-azul-1">Depois que a pessoa se torna aluno WOL</p>
+  <h4 class="fundo-laranja">Upselling</h4>
+  <p>Primeiro parabéns pela decisão de se tornar um aluno (a) da Wiseup online, não tenho nenhuma dúvida que você vai gostar e que se você se dedicar, eu tenho absoluta certeza que você vai atingir seus objetivos.
+Só que antes de finalizarmos aqui eu vou fazer uma metáfora pra você entender uma coisa.
+Nós temos uma área premium aqui na Wiseup, alguns alunos tem acesso a essa oportunidade.
+_______ você já fez ou faz academia? Bacana, na academia, com bons aparelhos você tem que ir lá e vai receber os exercícios e você vai fazer, no começo é mais difícil mas depois você pega o jeito. A Wiseup Online é uma excelente academia, com os melhores equipamentos e que você de forma disciplinada mesmo com um pouco de dificuldade no começo pode atingir seus objetivos e ter ótimos resultados. Tranquilo?
+Usando essa metáfora da academia, a nossa área premium disponibiliza para você um personal trainer, o que que é esse personal trainer, é um cara que vai estar ao seu lado, vai te dar um atendimento personalizado, vai corrigir, vai te motivar e que vai te acompanhar de forma personalizada e nessa área premium com esse atendimento personalizado você terá outros alunos, e você vai poder interagir com esses alunos. Ou seja é uma área com professor onde você estará em uma turma com no máximo 12 pessoas, porque a ideia não é só te corrigir, te motivar mas é também para você praticar a conversação e a interação com outras pessoas. Na área premium você terá aulas duas vezes por semana ao longo do ano.
+Então baseado no seu interesse e no seu senso de urgência de aprender o inglês, você acredita que estar na área premium tendo esse atendimento personalizado faz sentido para você ou a academia com os equipamentos já é o suficiente?
+</p>
+<h5 class="fundo-amarelo">Decisão Imediata</h5>
+<p>Mas antes de te explicar, eu vou mais uma vez fazer aquele mesmo combinado.. caso não encaixe a parte premium para você, seja valores ou tempo, você me fala um não e tudo certo, a gente segue com a Wiseup Online já é uma excelente escolha e você vai gostar muito. 
+Agora caso você goste e caso esteja dentro do teu orçamento vou te matricular na área premium na sequência. Podemos combinar assim?
+E para reforçar esse combinado, como você acabou de se tornar aluno, a plataforma tem um benefício que é oferecido apenas uma única vez na história para o aluno que é neste momento aqui, que é um voucher de R$1248,00 esse voucher é um desconto nas mensalidades e só está disponível enquanto essa janela está aberta, caso aqui finalize esse voucher não volta mais, beleza?
+</p>
+
+<p>Legal, vou te explicar aqui agora, eu gosto de pontuar dois  pontos principais, eu poderia falar vários aqui mas esses dois fazem muito sentido para você entender como funciona as aulas no Wiseup Live</p>
+
+<h5 class="fundo-amarelo">Speech</h5>
+<p>A primeira coisa é a sua performance, quando você estuda somente pela Wiseup Online, você vai estudar no seu ritmo, quando você quiser a hora que quiser, isso na minha opinião é excelente mas aqui o professor vai exigir ainda mais de você ou seja é realmente um atendimento personalizado, você terá prazos e entregas aqui no Wiseup Live, para de fato acelerar seu aprendizado.
+</p>
+<p>Faz sentido para você ter esse foco na performance pra aumentar ainda mais seu desempenho no inglês? Então tá bom…</p>
+<p>A segunda característica da nossa área premium é a completa flexibilidade, nós entendemos que nossos alunos são pessoas ocupadas que trabalham e têm a vida corrida então aqui a gente oferece algo que exige do aluno uma performance mas por outro lado a gente precisa dar mais flexibilidade para esse aluno, então por exemplo, vamos dizer que você estuda segundas e quartas às 7 da noite, se fosse no presencial e você faltasse, você perderia essa aula, toda escola presencial é assim, inclusive a WIseup presencial, mas aqui como é uma plataforma online, temos algumas vantagens. Uma delas é que as aulas são gravadas ou seja se você faltar você pode assistir depois, mas mesmo que você não falte você pode assistir a aula que você participou, você vai se ver falando inglês e acompanhar sua evolução, legal? Outro ponto, digamos que por alguma razão você não vai poder participar de alguma aula da semana, aconteceu algum imprevisto, você pode repor essa aula na aula seguinte, você vai buscar se encaixar em várias possibilidades de horários e você mesmo faz isso tudo pela plataforma e o mais legal, sem nenhum custo adicional. Agora outro cenário, você fez suas aulas da semana tudo certinho mas você quer dar um gás, você pode entrar em alguma turma que esteja vendo o mesmo conteúdo que você e ter uma aula de reforço, claro, se a turma tiver vagas. Bom, essas são as duas funcionalidades que eu quis destacar aqui, me diz ___ o que que você achou da área premium?</p>
+<p>Você acredita que esse formato tem a ver contigo?</p>
+<p>Legal, fora a parte econômica, só pelo que eu te expliquei você quer ser um aluno premium?</p>
+<h5 class="fundo-amarelo">Fechamento</h5>
+<p>Maravilha, vamos lá! Você lembra que a WIseup presencial custa R$700,00 por mês, certo?
+E você já entendeu que a presencial não tem todas essas possibilidades que eu te apresentei, certo?</p>
+
+
+<p>Legal, o valor da Wiseup Live, nossa área premium é de R$250,00 por mês, o que você acha?</p>
+<p>E o bacana é o seguinte, lembra do voucher de R$1248,00?</p>
+<p>Ele reduz sua mensalidade para R$198,00 por mês.</p>
+
+<p>Resumindo</p>
+<p>Hoje você vai pagar uma taxa de matrícula de R$250,00
+Você vai entrar na turma que começa agora no mês de _____
+E só no mês de ______ você começa a pagar a mensalidade que será no valor de R$198,00</p>
+<p>Dessa forma, encaixou no orçamento?</p>
+
+<p class="fundo-azul-1">Multiperfil se teve no WOL</p>
+<p>(nome da pessoa) no wiseup online você colocou mais um perfil, aqui você pode colocar também, como funciona: A mesma pessoa que estiver estudando wiseup online com você pode estudar aqui também, aí paga ao invés de pagar R$250,00 de taxa de matrícula, paga R$60,00 e quando você começar a pagar os R$198,00, a pessoa paga R$60,00.</p>
+
+<p>Posso colocar o segundo perfil então?</p>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 class="fundo-amarelo">Referidos</h2>
+<p>Seu cadastro está pronto, já vamos finalizar mas me conta você está feliz que vai finalmente começar a aprender inglês?</p>
+<p class="fundo-azul-1">Sonha com o clientes sobre os motivos dele</p>
+<p>E você concorda que se não fosse o (nome de quem indicou) lembrar de você, você não estaria tendo essa oportunidade agora?</p>
+<p>(nome da pessoa) nós vamos dar oportunidade para que mais pessoas tenham acesso ao que você teve</p>
+<p>Te mandei um oi ai no whatsapp, me responde por favor pra nossa conversa subir</p>
+<p>Seu celular é iphone ou android?</p>
+<p>Legal, vai ali onde você escreve a mensagem, clica em (+ no iphone, clipe no android)</p>
+<p>Seleciona a opção contato</p>
+<P>Enquanto eu libero todos seus acessos, você vai selecionar 30 pessoas</P>
+<p>E pra facilitar para você, não precisa pensar se precisa ou não do inglês, você vai focar agora somente em pessoas que você gosta, que eu vou levar essa mesma oportunidade pra elas, caso elas não queiram tá tudo certo, você fez sua parte em ajudar. </P>
+
+<p class="fundo-azul-1">Se houver objeção: vai por afinidade, assim como o (nome de quem indicou) só para você ficar tranquilo, porque se alguém falar que n]ao quer, eu nem coloco na meu sistema</p>
+
+<h2 class="fundo-amarelo">Validação</h2>
+<p>Agora (nome da pessoa), nós vamos avisar seus amigos que você está fazendo essa indicação para que eventualmente eles não percam minha ligação e acabam perdendo essa oportunidade.</p>
+
+<p class="fundo-azul-1">Manda a mensagem e pede pra enviar de volta; depois vai de 5 em 5</p>
+<p class="fundo-azul-1">EXPLICA SOBRE AS RESPOSTAS</p>
+<p>Nesse momento as pessoas vão te responder, você não precisa explicar nada, você vai me mandar aqui o nome e na frente sim, por exemplo:Ana - sim que aí eu já coloco ela como prioridade pra ela não perder essas mesmas condições que você, beleza?</p> 
+<p>Posso contar com você pra me avisar?</p>
+
+<p>Legal (nome da pessoa) finalizamos! Já está tudo liberado para seus acessos!</p>
+<p>Seja muito bem vindo à Wiseup, tenho certeza que você vai desenvolver seu inglês, estamos juntos aqui nesse tempo, conte comigo.</p>
+<p>Foi um prazer falar com você, tchau!</p>
+<p>ABRAÇOS!</p>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
+
