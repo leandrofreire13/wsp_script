@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Bloco de Notas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        textarea {
+            width: 100%;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Meu Bloco de Notas</h1>
+    <p>Use este bloco de notas para fazer anotações simples.</p>
+
+    <textarea id="blocoDeNotas"></textarea>
+
+    <script>
+        // Recupera os dados do armazenamento local, se existirem.
+        document.getElementById('blocoDeNotas').value = localStorage.getItem('anotacoes') || '';
+
+        // Adiciona um ouvinte de evento para salvar os dados sempre que o conteúdo do bloco de notas for alterado.
+        document.getElementById('blocoDeNotas').addEventListener('input', function () {
+            // Obtém o valor do bloco de notas.
+            var conteudo = document.getElementById('blocoDeNotas').value;
+            
+            // Salva os dados no armazenamento local.
+            localStorage.setItem('anotacoes', conteudo);
+        });
+    </script>
+
+</body>
+</html>
